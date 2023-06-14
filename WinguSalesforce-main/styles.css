@@ -1,0 +1,234 @@
+/* Estilos generales */
+body {
+  font-family: "Jost", sans-serif;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+/* Estilos de la navbar */
+header {
+  background-color: #015cfe;
+  padding: 10px 0;
+  color: white;
+  font-family: "Jost", sans-serif;
+  margin-top: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin: 0;
+}
+
+.navbar-brand img {
+  width: 200px;
+  height: auto;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: lightgray;
+}
+
+/* Estilos del formulario */
+.formulario {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 4% auto;
+  height: auto;
+  width: 600px;
+  background-color: #f5f5f5;
+  padding: 24px;
+  border: 2px solid #015cfe;
+  border-radius: 10px;
+  font-family: "Jost", sans-serif;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #015cfe;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #015cfe;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0459f7;
+  transform: scale(1.05);
+}
+
+h3 {
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #015cfe;
+}
+
+/* Estilos del footer */
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #015cfe;
+  /* margin: auto; */
+  text-align: center;
+  color: white;
+  font-family: "Jost", sans-serif;
+  overflow: hidden;
+}
+
+.footer-content {
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  margin: 0% auto;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.social-links img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-links img:hover {
+  transform: scale(1.3);
+}
+
+.contacto {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* Estilos adicionales */
+
+.GRACIAS {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.GRACIAS h1 {
+  text-align: center;
+  font-family: Jost;
+}
+.FotoGracias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid #015cfe;
+    border-top: 2px solid #015cfe;
+  }
+  footer {
+
+  }
+  .formulario {
+    height: auto;
+    width: auto;
+    max-width: 90%;
+    position: relative;
+    margin: 15% auto;
+    z-index: -1;
+  }
+  .infopago {
+    height: auto;
+    width: auto;
+    max-width: 80%;
+    position: relative;
+    margin: 15% auto;
+    z-index: -1;
+  }
+  .Imagenbanco {
+    padding-bottom: 80px;
+    padding-top: 10px;
+  }
+}
+
+/*Styles Dinero*/
+
+.infopago {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 4% auto;
+  height: auto;
+  width: 600px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border: 2px solid #015cfe;
+  border-radius: 10px;
+}
+.Imagenbanco {
+  margin-top: 50px;
+}
+
+/*Estilos mapa*/
+#mi_mapa{
+  height: 300px;
+  width: 600px;
+  margin: 0% auto;
+  border: 4px solid  #015cfe;
+  border-radius: 20px;
+}
+.map{
+  /* background-color: whitesmoke; */
+  padding: 1px;
+  margin-top: 1px;
+  margin-bottom: 32px;
+}
+#descripcionmapa{
+  margin-top: 20px;
+  padding: 1px;
+  /* margin: 0% auto; */
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
